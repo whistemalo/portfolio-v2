@@ -33,6 +33,7 @@ const Navbar = () => {
     setnav(!nav);
   };
 
+
   useEffect(() => {
     const handleShadow = () => {
       if (window.scrollY >= 90) {
@@ -59,6 +60,9 @@ const Navbar = () => {
           setLinkColor("#ecf0f3");
           setshadow(false);
         }
+      }else{
+        setNavBg("#ecf0f3");
+        setLinkColor("#1f2937");
       }
     };
     window.addEventListener("scroll", handleBackground);
@@ -73,15 +77,22 @@ const Navbar = () => {
           : "fixed w-full h-20 z-[100]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Link href="/">
-          <Image
-            src="/../public/assets/logoLarge.png"
+      <div className="flex justify-between items-center w-full h-full px-10 2xl:px-16">
+        <div className="grid md:grid-cols-2" href='/'>
+        <div>
+        <Link href="/" className="absolute">
+          <Image src="/../public/assets/logoLarge.png"
             alt="logo"
             width="50"
-            height="50"
-          />
+            height="50"/>
         </Link>
+        </div>
+        <div>
+        <h3 style={{ color: `${linkColor}` }} className="uppercase">Williams</h3>
+        <h3 style={{ color: `${linkColor}` }} className="uppercase">Amaya</h3>
+        </div>
+        </div>
+        
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/#home">

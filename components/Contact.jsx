@@ -85,12 +85,12 @@ const Contact = () => {
             <div className="p-4">
               <form
                 onSubmit={handleSubmit}
-                action="https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060"
+                action="https://getform.io/f/f5c92af4-5a3a-473e-900b-71c0d18ad475"
                 method="POST"
               >
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">Name</label>
+                    <label className="uppercase text-sm py-2">Nombre</label>
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
@@ -101,7 +101,7 @@ const Contact = () => {
                   </div>
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">
-                      Phone Number
+                      Numero de Telefono
                     </label>
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
@@ -123,7 +123,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Subject</label>
+                  <label className="uppercase text-sm py-2">Tema</label>
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="text"
@@ -133,7 +133,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Message</label>
+                  <label className="uppercase text-sm py-2">Mensaje</label>
                   <textarea
                     className="border-2 rounded-lg p-3 border-gray-300"
                     rows="10"
@@ -143,7 +143,7 @@ const Contact = () => {
                   ></textarea>
                 </div>
                 <button className="w-full p-4 text-gray-100 mt-4">
-                  Send Message
+                  Enviar Mensaje
                 </button>
               </form>
             </div>
