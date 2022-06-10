@@ -14,6 +14,7 @@ const About = () => {
               className="text-[#5651e5] font-bold hover:bg-black/40 p-1"
               href="https://www.udb.edu.sv/udb/carreras/carrera/ingenieria_en_ciencias_de_la_computacion"
               target="_blank"
+              rel="noreferrer"
             >
               ciencias de la computación
             </a>
@@ -22,6 +23,7 @@ const About = () => {
               className="text-[#5651e5] font-bold p-1"
               href="https://www.udb.edu.sv/udb/"
               target="_blank"
+              rel="noreferrer"
             >
               Universidad Don Bosco.
             </a>

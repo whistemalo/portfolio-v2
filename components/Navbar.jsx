@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import logoAltWhite from "../public/assets/logoAltWhite.png";
+import logoAlt from "../public/assets/logoAlt.png";
+
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -11,6 +14,7 @@ const Navbar = () => {
   const [shadow, setshadow] = useState(false);
   const [navBg, setNavBg] = useState("#ecf0f3");
   const [linkColor, setLinkColor] = useState("#1f2937");
+  const [logo,setLogo]= useState(logoAlt);
   const router = useRouter();
 
   useEffect(() => {
@@ -31,6 +35,12 @@ const Navbar = () => {
 
   const handleNav = () => {
     setnav(!nav);
+  };
+
+  const hadleHome = () => {
+    setNavBg("#ecf0f3");
+    setLinkColor("#1f2937");
+    setLogo(logoAlt);
   };
 
 
@@ -54,13 +64,16 @@ const Navbar = () => {
         if (window.scrollY >= 240) {
           setNavBg("#ecf0f3");
           setLinkColor("#1f2937");
+          setLogo(logoAlt);
           setshadow(true);
         } else {
+          setLogo(logoAltWhite);
           setNavBg("transparent");
           setLinkColor("#ecf0f3");
           setshadow(false);
         }
       }else{
+        setLogo(logoAlt);
         setNavBg("#ecf0f3");
         setLinkColor("#1f2937");
       }
@@ -78,19 +91,18 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-10 2xl:px-16">
-        <div className="grid md:grid-cols-2" href='/'>
-        <div>
-        <Link href="/" className="absolute">
-          <Image src="/../public/assets/logoLarge.png"
+        <div className="grid md:grid-cols-2 p-3" href="/">
+        
+        <Link href="/" className="absolute ">
+          <Image src={logo.src}
             alt="logo"
-            width="50"
-            height="50"/>
+            width="67"
+            height="50"
+            className="hover:"
+            onClick={hadleHome}
+            />
         </Link>
-        </div>
-        <div>
-        <h3 style={{ color: `${linkColor}` }} className="uppercase">Williams</h3>
-        <h3 style={{ color: `${linkColor}` }} className="uppercase">Amaya</h3>
-        </div>
+     
         </div>
         
         <div>
@@ -140,10 +152,11 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Image
-                src="/../public/assets/logoLarge.png"
+                src={logo.src}
                 alt="/"
-                width={50}
+                width={67}
                 height={50}
+                onClick={hadleHome}
               />
               <div
                 onClick={handleNav}
@@ -154,7 +167,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-300 my-4">
               <p className="w-[85%] md:w-[90%] py-4">
-                Let's build something together
+                Let`&apos;`s build something together
               </p>
             </div>
           </div>

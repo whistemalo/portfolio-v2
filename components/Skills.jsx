@@ -11,7 +11,7 @@ function Skills() {
             <div className='p-1 shadow-xl rounded-xl' >
                 <div className='py-10 p-3 grid grid-cols-5 gap-5 justify-center items-center'>
                     <div className='p-1 m-auto hover:scale-105 ease-in duration-300'> 
-                        <Image alt='/' src='/../public/assets/skills/css.png' width='64px' height='64px'/>
+                        <Image alt='/' src='/../public/assets/skills/css.png' width='48px' height='64px'/>
                     </div>
                     <div className='p-1 m-auto hover:scale-105 ease-in duration-300'> 
                         <Image alt='/' src='/../public/assets/skills/firebase.png' width='64px' height='64px'/>
@@ -20,7 +20,7 @@ function Skills() {
                         <Image alt='/' src='/../public/assets/skills/github1.png' width='64px' height='64px'/>
                     </div>
                     <div className='p-1 m-auto hover:scale-105 ease-in duration-300'> 
-                        <Image alt='/' src='/../public/assets/skills/html.png' width='64px' height='64px'/>
+                        <Image alt='/' src='/../public/assets/skills/html.png' width='48px' height='64px'/>
                     </div>
                     <div className='p-1 m-auto hover:scale-105 ease-in duration-300'> 
                         <Image alt='/' src='/../public/assets/skills/javascript.png' width='64px' height='64px'/>
