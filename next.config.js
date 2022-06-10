@@ -6,7 +6,7 @@ const nextConfig = {
     path:"",
   },
   basePath:"/portfolio-v2",
-  assetPrefix:"/portfolio-v2/assets",
+  assetPrefix:"/portfolio-v2",
 }
 
 module.exports = nextConfig
