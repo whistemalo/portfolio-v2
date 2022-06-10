@@ -5,8 +5,8 @@ const nextConfig = {
     loader:"akamai",
     path:"",
   },
-  basePath:"/gh-pages",
-  assetPrefix:"/gh-pages",
+  basePath:"/tree/gh-pages",
+  assetPrefix:"/tree/gh-pages",
 }
 
 module.exports = nextConfig
