@@ -26,6 +26,7 @@ const Navbar = () => {
       setNavBg("#ecf0f3");
       setLinkColor("#1f2937");
     }
+
   }, [router]);
 
   const handleNav = () => {
@@ -42,6 +43,26 @@ const Navbar = () => {
     };
     window.addEventListener("scroll", handleShadow);
   }, []);
+
+  useEffect(() => {
+    const handleBackground = () => {
+      if (router.asPath === "/vpn" ||
+      router.asPath === "/forkify" ||
+      router.asPath === "/https" ||
+      router.asPath === "/android") {
+        if (window.scrollY >= 240) {
+          setNavBg("#ecf0f3");
+          setLinkColor("#1f2937");
+          setshadow(true);
+        } else {
+          setNavBg("transparent");
+          setLinkColor("#ecf0f3");
+          setshadow(false);
+        }
+      }
+    };
+    window.addEventListener("scroll", handleBackground);
+  }, [router]);
 
   return (
     <div
