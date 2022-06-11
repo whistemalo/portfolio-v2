@@ -3,10 +3,10 @@ const nextConfig = {
   reactStrictMode: true,
   images:{
     loader:"akamai",
-    path:"/portfolio-v2/assets",
+    path:"",
   },
-  basePath:"/portfolio-v2",
-  assetPrefix:"/portfolio-v2",
+  basePath:"",
+  assetPrefix:"",
 }
 
 module.exports = nextConfig
