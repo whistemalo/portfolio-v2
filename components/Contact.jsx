@@ -4,7 +4,9 @@ import { AiOutlineMail } from "react-icons/ai";
 import { IoMdAirplane } from "react-icons/io";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import rocket from "../public/assets/rocket.png"
+import Image from "next/image"
+
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -153,7 +155,7 @@ const Contact = () => {
         <div className="flex justify-center py-12">
           <Link href="/">
             <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-              <IoMdAirplane className="text-[#5651e5]" size={30} />
+              <Image src={rocket} width="48px" height="48px"/>
             </div>
           </Link>
         </div>

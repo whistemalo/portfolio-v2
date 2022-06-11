@@ -17,23 +17,17 @@ export const Main = () => {
           </h1>
           <h1 className="py-4 text-gray-700">A Computer Science Engineer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            Soy técnico electrónico con un enfoque
-            al desarrollo web actualmente curso el quinto año de una ingeniería
+             Técnico electrónico & estudiante de 9 ciclo en ingeniería
             en
-            <a className="text-[#5651e5] font-bold hover:bg-black/40 p-1"
+            <a className="text-[#5651e5] font-bold hover:underline p-1"
               href="https://www.udb.edu.sv/udb/carreras/carrera/ingenieria_en_ciencias_de_la_computacion"
               target="_blank"
               rel="noreferrer"
             >
-              ciencias de la computación
+              ciencias de la computación.
             </a>
-            en la
-            <a className="text-[#5651e5] font-bold p-1" href="https://www.udb.edu.sv/udb/" target="_blank"
-            rel="noreferrer">
-              Universidad Don Bosco.
-            </a>
-            Entre mis ambiciones a corto plazo se encuentra una especialización
-            en inteligencia artificial para el analisis de datos.
+           
+            
           </p>
 
           {/* contacto */}

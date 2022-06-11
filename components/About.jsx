@@ -8,10 +8,9 @@ const About = () => {
           <p className="text-xl tracking-widest uppercase text-[#5651e5]">Acerca de</p>
           <h2>¿Quien soy?</h2>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            Soy técnico electrónico con un enfoque al desarrollo web actualmente
-            curso el quinto año de una ingeniería en
-            <a
-              className="text-[#5651e5] font-bold hover:bg-black/40 p-1"
+            Soy técnico electrónico con un gran interes por el codigo, mis estudios se han centrado en la programacion particularmente en el desarrollo web y el levatamiento de servidores windows/linux actualmente curso el 9 ciclo en ingeniería
+            en
+            <a className="text-[#5651e5] font-bold hover:underline p-1"
               href="https://www.udb.edu.sv/udb/carreras/carrera/ingenieria_en_ciencias_de_la_computacion"
               target="_blank"
               rel="noreferrer"
@@ -19,16 +18,11 @@ const About = () => {
               ciencias de la computación
             </a>
             en la
-            <a
-              className="text-[#5651e5] font-bold p-1"
-              href="https://www.udb.edu.sv/udb/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a className="text-[#5651e5] font-bold p-1 hover:underline" href="https://www.udb.edu.sv/udb/" target="_blank"
+            rel="noreferrer">
               Universidad Don Bosco.
             </a>
-            Entre mis ambiciones a corto plazo se encuentra una especialización
-            en inteligencia artificial para el analisis de datos.
+            
           </p>
         </div>
 
