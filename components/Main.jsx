@@ -10,10 +10,10 @@ export const Main = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-600">
-            Let`&apos;`s build something together
+            Let&#39;s build something together
           </p>
           <h1 className="py-4 text-gray-700">
-            Hi, I`&apos;`m <span className="text-[#5651e5]">Williams</span>
+            Hi, I&#39;m <span className="text-[#5651e5]">Williams</span>
           </h1>
           <h1 className="py-4 text-gray-700">A Computer Science Engineer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
