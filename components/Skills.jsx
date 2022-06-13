@@ -26,50 +26,50 @@ function Skills() {
             <div className='p-5'> 
             <div className='p-1 shadow-xl rounded-xl' >
                 <div className='py-10 p-3 grid grid-cols-5 gap-5 justify-center items-center'>
-                    <div className='p-1 m-auto hover:scale-105 ease-in duration-300'> 
-                        <Image alt="css" src={css} width='48px' height='64px'/>
+                    <div className='p-1 m-auto  ease-in duration-300'> 
+                        <Image alt="cscss" src    ={css       } width='48px' height='64px'/>
                     </div>
-                    <div className='p-1 m-auto hover:scale-105 ease-in duration-300'> 
-                        <Image alt='/' src={firebase} width='64px' height='64px'/>
+                    <div className='p-1 m-auto  ease-in duration-300'> 
+                        <Image alt='firebase' src={    firebase        } width='64px' height='64px'/>
                     </div>
-                    <div className='p-1 m-auto hover:scale-105 ease-in duration-300'> 
-                        <Image alt='/' src={github1} width='64px' height='64px'/>
+                    <div className='p-1 m-auto  ease-in duration-300'> 
+                        <Image alt='github1' src={    github1     } width='64px' height='64px'/>
                     </div>
-                    <div className='p-1 m-auto hover:scale-105 ease-in duration-300'> 
-                        <Image alt='/' src={html} width='48px' height='64px'/>
+                    <div className='p-1 m-auto  ease-in duration-300'> 
+                        <Image alt='html' src={    html        } width='48px' height='64px'/>
                     </div>
-                    <div className='p-1 m-auto hover:scale-105 ease-in duration-300'> 
-                        <Image alt='/' src={javascript} width='64px' height='64px'/>
+                    <div className='p-1 m-auto  ease-in duration-300'> 
+                        <Image alt='javascript' src={    javascript      } width='64px' height='64px'/>
                     </div>
-                    <div className='p-1 m-auto hover:scale-105 ease-in duration-300'> 
-                        <Image alt='/' src={colab} width='64px' height='64px'/>
+                    <div className='p-1 m-auto  ease-in duration-300'> 
+                        <Image alt='colab' src={    colab       } width='64px' height='64px'/>
                     </div>
-                    <div className='p-1 m-auto hover:scale-105 ease-in duration-300'> 
-                        <Image alt='/' src={java} width='64px' height='64px'/>
+                    <div className='p-1 m-auto  ease-in duration-300'> 
+                        <Image alt='java' src={    java        } width='64px' height='64px'/>
                     </div>
-                    <div className='p-1 m-auto hover:scale-105 ease-in duration-300'> 
-                        <Image alt='/' src={linux} width='64px' height='64px'/>
+                    <div className='p-1 m-auto  ease-in duration-300'> 
+                        <Image alt='linux' src={    linux       } width='64px' height='64px'/>
                     </div>
-                    <div className='p-1 m-auto hover:scale-105 ease-in duration-300'> 
-                        <Image alt='/' src={mongo} width='64px' height='64px'/>
+                    <div className='p-1 m-auto  ease-in duration-300'> 
+                        <Image alt='mongo' src={    mongo       } width='64px' height='64px'/>
                     </div>
-                    <div className='p-1 m-auto hover:scale-105 ease-in duration-300'> 
-                        <Image alt='/' src={node} width='64px' height='64px'/>
+                    <div className='p-1 m-auto  ease-in duration-300'> 
+                        <Image alt='node' src={    node        } width='64px' height='64px'/>
                     </div>
-                    <div className='p-1 m-auto hover:scale-105 ease-in duration-300'> 
-                        <Image alt='/' src={php} width='64px' height='64px'/>
+                    <div className='p-1 m-auto  ease-in duration-300'> 
+                        <Image alt='php' src={    php     } width='64px' height='64px'/>
                     </div>
-                    <div className='p-1 m-auto hover:scale-105 ease-in duration-300'> 
-                        <Image alt='/' src={python} width='64px' height='64px'/>
+                    <div className='p-1 m-auto  ease-in duration-300'> 
+                        <Image alt='python' src={    python      } width='64px' height='64px'/>
                     </div>
-                    <div className='p-1 m-auto hover:scale-105 ease-in duration-300'> 
-                        <Image alt='/' src={react} width='64px' height='64px'/>
+                    <div className='p-1 m-auto  ease-in duration-300'> 
+                        <Image alt='react' src={    react       } width='64px' height='64px'/>
                     </div>
-                    <div className='p-1 m-auto hover:scale-105 ease-in duration-300'> 
-                        <Image alt='/' src={sql_server} width='64px' height='64px'/>
+                    <div className='p-1 m-auto  ease-in duration-300'> 
+                        <Image alt='sql_server' src={    sql_server      } width='64px' height='64px'/>
                     </div>
-                    <div className='p-1 m-auto hover:scale-105 ease-in duration-300'> 
-                        <Image alt='/' src={tailwind} width='64px' height='64px'/>
+                    <div className='p-1 m-auto  ease-in duration-300'> 
+                        <Image alt='tailwind' src={    tailwind        } width='64px' height='64px'/>
                     </div>
                 </div>
 

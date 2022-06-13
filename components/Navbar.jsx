@@ -22,6 +22,7 @@ const Navbar = () => {
       router.asPath === "/vpn" ||
       router.asPath === "/forkify" ||
       router.asPath === "/https" ||
+      router.asPath === "/servidores" ||
       router.asPath === "/android"
     ) {
       setNavBg("transparent");
@@ -60,6 +61,7 @@ const Navbar = () => {
       if (router.asPath === "/vpn" ||
       router.asPath === "/forkify" ||
       router.asPath === "/https" ||
+      router.asPath === "/servidores" ||
       router.asPath === "/android") {
         if (window.scrollY >= 240) {
           setNavBg("#ecf0f3");
