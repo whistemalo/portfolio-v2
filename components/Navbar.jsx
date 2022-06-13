@@ -225,7 +225,7 @@ const Navbar = () => {
                   </div>
                 </a>
 
-                <a href="Williams Amaya.pdf">
+                <a href="WilliamsAmaya.pdf">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <BsFillPersonLinesFill />
                   </div>

@@ -35,7 +35,7 @@ const About = () => {
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
               Actualmente estoy trabajando en el diseño e implementación de un
               sistema de registro y reportes para la organización sin fines de
-              lucro "Comandos de Salvamento", dicho sistemas se desplegará a
+              lucro &#34;Comandos de Salvamento&#34;, dicho sistemas se desplegará a
               nivel nacional, y estará desplegada en forma de contenerización a
               través de dockers que se hospedará en google cloud.
             </p>
