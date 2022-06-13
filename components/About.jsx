@@ -33,12 +33,21 @@ const About = () => {
             </a>
           </p>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-              Actualmente estoy trabajando en el diseño e implementación de un
-              sistema de registro y reportes para la organización sin fines de
-              lucro &#34;Comandos de Salvamento&#34;, dicho sistemas se desplegará a
-              nivel nacional, y estará desplegada en forma de contenerización a
-              través de dockers que se hospedará en google cloud.
-            </p>
+            Actualmente estoy trabajando en el diseño e implementación de un
+            sistema de registro y reportes para la organización sin fines de
+            lucro &#34;{" "}
+            <a
+              className="text-[#5651e5] font-bold hover:underline p-1"
+              target="_blank"
+              rel="noreferrer"
+              href="https://comandosdesalvamento.org/"
+            >
+              Comandos de Salvamento
+            </a>{" "}
+            &#34;, dicho sistemas se desplegará a nivel nacional, y estará
+            desplegada en forma de contenerización a través de dockers que se
+            hospedará en google cloud.
+          </p>
         </div>
 
         <div className="p-1 w-full h-auto m-auto shadow-xl shador-gray-400 rounded-xl flex items-center justify-center hover:scale-105 duration-300">
