@@ -37,7 +37,7 @@ const About = () => {
             sistema de registro y reportes para la organización sin fines de
             lucro &#34;{" "}
             <a
-              className="text-[#5651e5] font-bold hover:underline p-1"
+              className="text-[#5651e5] font-bold hover:underline"
               target="_blank"
               rel="noreferrer"
               href="https://comandosdesalvamento.org/"
