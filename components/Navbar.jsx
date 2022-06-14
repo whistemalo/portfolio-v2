@@ -63,7 +63,7 @@ const Navbar = () => {
       router.asPath === "/https" ||
       router.asPath === "/servidores" ||
       router.asPath === "/android") {
-        if (window.scrollY >= 240) {
+        if (window.scrollY >= 210) {
           setNavBg("#ecf0f3");
           setLinkColor("#1f2937");
           setLogo(logoAlt);
