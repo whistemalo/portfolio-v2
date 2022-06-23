@@ -22,7 +22,7 @@ function Skills() {
     <div id='skills' className='w-full lg:h-screen p-2'>
         <div className='max-w-[1240px]  mx-auto flex flex-col justify-center h-full'>
             <p className='text-xl tracking-widest uppercase text-[#5651e5] p-3'>Habilidades</p>
-            <h2 className='max-w-[1240px] mx-auto px-2 '>Tecnologias con las que he trabajado</h2>
+            <h2 className='max-w-[1240px] mx-auto px-2 '>Tecnologías con las que he trabajado</h2>
             <div className='p-5'> 
             <div className='p-1 shadow-xl rounded-xl' >
                 <div className='py-10 p-3 grid grid-cols-5 gap-5 justify-center items-center'>
